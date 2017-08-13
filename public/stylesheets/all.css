@@ -43,7 +43,18 @@
 
 .footer-container {
   display: flex;
-  justify-content: space-around;
-  background-color:gray;
-  height: 250px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(67, 71, 76);
+}
+
+.footer-container h3 {
+  font-variant-caps: all-petite-caps;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  padding-bottom: 20px;
 }
