@@ -23,8 +23,15 @@
 }
 
 .info-container {
-  background-color:#949494;
+  /*background-color:#949494;*/
   height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/images/info-background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .simulation-container {
@@ -35,6 +42,8 @@
 }
 
 .footer-container {
-  background-color:green;
+  display: flex;
+  justify-content: space-around;
+  background-color:gray;
   height: 250px;
 }

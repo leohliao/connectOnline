@@ -5,9 +5,13 @@
   margin-top: 15px;
 }
 
-.simulation-image-right {
-  height: 600px;
+.simulation-container h1 {
+  position: absolute;
+  font-size: 36px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 20px;
 }
+
 
 .simulation-image-iphone {
   height: 540px;
