@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Connect</title>
+    <link rel='stylesheet' href='/stylesheets/app.css' />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro:700" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <% include functions.ejs %>
+  </head>
+  <body>
+    <div class="all-container">
+      <div class="title-container">
+        <div class="title-container-left">
+          <div class="title-container-images">
+            <ul>
+              <% imagedata.images.forEach((image, idx)=>{ %>
+              <% if (idx > 20){ %>
+                <% return; %>
+              <% }; %>
+                <img class="title-container-images-image" src=<%= image.image_url %> alt="images"/>
+              <% }) %>
+            </ul>
+          </div>
+        </div>
+
+        <div class="title-container-mid">
+          <div class="title-container-mid-img">
+            <img src="images/logo.png" alt="logo"/>
+          </div>
+          <div class="title-container-button">
+            <a onclick="showMore()" href="#showMore">
+              <h1>LEARN MORE</h1>
+            </a>
+          </div>
+        </div>
+
+        <div class="title-container-right">
+          <div class="title-container-images">
+            <ul>
+              <% imagedata.images.forEach((image, idx)=>{ %>
+              <% if (idx < 21){ %>
+                <% return; %>
+              <% }; %>
+                <img class="title-container-images-image" src=<%= image.image_url %> alt="images"/>
+              <% }) %>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+        <div id="">
+          <div class="info-container">
+            <% include info.ejs %>
+          </div>
+          <div class="simulation-container">
+            <% include simulation.ejs %>
+          </div>
+
+          <footer class="footer-container">
+            <% include footer.ejs %>
+          </footer>
+        </div>
+      </div>
+  </body>
+
+</html>
