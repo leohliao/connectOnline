@@ -27,7 +27,7 @@
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("/images/info-background.jpg");
+  background-image: url("http://res.cloudinary.com/leosoba/image/upload/v1502661136/info-background_p8kuwg.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
