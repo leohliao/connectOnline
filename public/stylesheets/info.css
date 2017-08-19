@@ -27,7 +27,6 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  align-content: center;
 }
 
 .info-container-contents h1 {

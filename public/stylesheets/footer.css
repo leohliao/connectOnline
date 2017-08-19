@@ -42,7 +42,7 @@
 }
 
 .footer-container-name {
-  min-width: 10vw;
+  width: 20vw;
   font-family: sans-serif;
   margin-top: 4vh;
   color: rgba(255, 255, 255, 0.8);
