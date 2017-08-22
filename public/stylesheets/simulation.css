@@ -34,3 +34,17 @@
   height: 540px;
   z-index: 10;
 }
+
+.simulation-container-emulator {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin-left: 120px;
+ margin-top: 70px;
+}
+
+.simulation-container-emulator h2 {
+  font-family: sans-serif;
+  margin-top: -290px;
+  margin-left: 120px;
+}
