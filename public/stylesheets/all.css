@@ -18,7 +18,7 @@
 
 #showMore {
   background-color: white;
-  display: none;
+  /*display: none;*/
   flex-direction: column;
 }
 
